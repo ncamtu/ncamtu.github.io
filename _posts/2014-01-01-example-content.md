@@ -162,6 +162,26 @@ Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, conse
 
 Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.
 
+### Mathematics:
+
+Here is an inline function $$\frac{1}{x^2}$$. And the following is a standable equation:
+
+$$x^2 + y^2 = z^2$$
+
+### Python Code
+
+The following is an example of included python code in your page:
+
+{% highlight python %}
+
+def fun(a,b):
+  """This function simply adds two integer
+     and returns the sum.
+  """
+  return a + b
+
+{% endhighlight %}
+
 -----
 
 Want to see something else added? <a href="https://github.com/poole/poole/issues/new">Open an issue.</a>

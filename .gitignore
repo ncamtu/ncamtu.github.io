@@ -40,3 +40,9 @@ validation-report.json
 
 # Folders to ignore
 node_modules
+
+# Emacs backup files
+.\#*
+
+# Script folder
+script/*
