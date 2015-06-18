@@ -28,3 +28,10 @@ author:
 version:             1.0.0
 github:
   repo:              https://ncamtu.github.io
+
+
+# List of pages on bar.
+pages_list:
+  About: '/about'
+  Archive: '/archive/'
+
