@@ -5,9 +5,9 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:               Research Notes
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
+title:               Every Notes
+tagline:             The world as I see it
+url:                 http://ncamtu.github.io
 paginate:            1
 baseurl:             ""
 

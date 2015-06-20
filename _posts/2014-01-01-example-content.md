@@ -1,26 +1,40 @@
 ---
 layout: post
+category: programming
+tags: [jekyll, example]
 title: Example content
 ---
 
 
 <div class="message">
-  Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
+    Howdy! This is an example blog post that shows several
+    types of HTML content supported in this theme.
 </div>
 
-Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
+Cum sociis natoque penatibus et magnis <a href="#">dis parturient
+montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque
+ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur
+est at lobortis. Cras mattis consectetur purus sit amet fermentum.
 
-> Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
+> Curabitur blandit tempus porttitor. Nullam quis risus eget urna
+> mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula
+> ut id elit.
 
-Etiam porta **sem malesuada magna** mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
+Etiam porta **sem malesuada magna** mollis euismod. Cras mattis 
+consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla
+sed consectetur.
 
 ## Inline HTML elements
 
-HTML defines a long list of available inline tags, a complete list of which can be found on the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
+HTML defines a long list of available inline tags, a complete list of
+which can be found on the
+[Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
 
 - **To bold text**, use `<strong>`.
 - *To italicize text*, use `<em>`.
-- Abbreviations, like <abbr title="HyperText Markup Langage">HTML</abbr> should use `<abbr>`, with an optional `title` attribute for the full phrase.
+- Abbreviations, like <abbr title="HyperText Markup
+  Langage">HTML</abbr> should use `<abbr>`, with an optional `title`
+  attribute for the full phrase.
 - Citations, like <cite>&mdash; Mark otto</cite>, should use `<cite>`.
 - <del>Deleted</del> text should use `<del>` and <ins>inserted</ins> text should use `<ins>`.
 - Superscript <sup>text</sup> uses `<sup>` and subscript <sub>text</sub> uses `<sub>`.
@@ -29,27 +43,35 @@ Most of these elements are styled by browsers with few modifications on our part
 
 ## Footnotes
 
-Footnotes are supported as part of the Markdown syntax. Here's one in action. Clicking this number[^fn-sample_footnote] will lead you to a footnote. The syntax looks like:
+Footnotes are supported as part of the Markdown syntax. Here's one in
+action. Clicking this number[^fn-sample_footnote] will lead you to a
+footnote. The syntax looks like:
 
 {% highlight text %}
 Clicking this number[^fn-sample_footnote]
 {% endhighlight %}
 
-Each footnote needs the `^fn-` prefix and a unique ID to be referenced for the footnoted content. The syntax for that list looks something like this:
+Each footnote needs the `^fn-` prefix and a unique ID to be referenced for the
+footnoted content. The syntax for that list looks something like this:
 
 {% highlight text %}
 [^fn-sample_footnote]: Handy! Now click the return link to go back.
 {% endhighlight %}
 
-You can place the footnoted content wherever you like. Markdown parsers should properly place it at the bottom of the post.
+You can place the footnoted content wherever you like. Markdown parsers should
+properly place it at the bottom of the post.
 
 ## Heading
 
-Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est
+non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec
+elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
 
 ### Code
 
-Inline code is available with the `<code>` element. Snippets of multiple lines of code are supported through Pygments. Longer lines will automatically scroll horizontally when needed.
+Inline code is available with the `<code>` element. Snippets of multiple lines
+of code are supported through Pygments. Longer lines will automatically scroll
+horizontally when needed.
 
 {% highlight js %}
 // Example can be run directly in your JavaScript console
@@ -62,7 +84,8 @@ adder(2, 6);
 // > 8
 {% endhighlight %}
 
-You may also optionally show code snippets with line numbers. Add `linenos` to the Pygments tags.
+You may also optionally show code snippets with line numbers. Add `linenos` to
+the Pygments tags.
 
 {% highlight js linenos %}
 // Example can be run directly in your JavaScript console
@@ -75,31 +98,42 @@ adder(2, 6);
 // > 8
 {% endhighlight %}
 
-Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.
+Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna
+mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris
+condimentum nibh, ut fermentum massa.
 
 ### Gists via GitHub Pages
 
-Vestibulum id ligula porta felis euismod semper. Nullam quis risus eget urna mollis ornare vel eu leo. Donec sed odio dui.
+Vestibulum id ligula porta felis euismod semper. Nullam quis risus eget urna
+mollis ornare vel eu leo. Donec sed odio dui.
 
 {% gist 13f94b734a4ddb132735 gist.md %}
 
-Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed odio dui. Vestibulum id ligula porta felis euismod semper.
+Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis
+vestibulum. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis
+natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec
+sed odio dui. Vestibulum id ligula porta felis euismod semper.
 
 ### Lists
 
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada
+magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris
+condimentum nibh, ut fermentum massa justo sit amet risus.
 
 * Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
 * Donec id elit non mi porta gravida at eget metus.
 * Nulla vitae elit libero, a pharetra augue.
 
-Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.
+Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit
+libero, a pharetra augue.
 
 1. Vestibulum id ligula porta felis euismod semper.
 2. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 3. Maecenas sed diam eget risus varius blandit sit amet non magna.
 
-Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.
+Cras mattis consectetur purus sit amet fermentum. Sed posuere
+consectetur est at lobortis.
 
 <dl>
   <dt>HyperText Markup Language (HTML)</dt>
@@ -112,11 +146,14 @@ Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at
   <dd>The programming language used to build advanced Web sites and applications</dd>
 </dl>
 
-Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo.
+Integer posuere erat a ante venenatis dapibus posuere velit
+aliquet. Morbi leo risus, porta ac consectetur ac, vestibulum at
+eros. Nullam quis risus eget urna mollis ornare vel eu leo.
 
 ### Images
 
-Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliquam aliquam metus erat, a pulvinar turpis suscipit at.
+Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam
+tempus. Aliquam aliquam metus erat, a pulvinar turpis suscipit at.
 
 ![placeholder](http://placehold.it/800x400 "Large example image")
 ![placeholder](http://placehold.it/400x200 "Medium example image")
@@ -124,7 +161,8 @@ Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliqua
 
 ### Tables
 
-Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet,
+consectetur adipiscing elit.
 
 <table>
   <thead>
@@ -160,7 +198,8 @@ Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, conse
   </tbody>
 </table>
 
-Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.
+Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur
+est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.
 
 ### Mathematics:
 
@@ -170,20 +209,29 @@ $$x^2 + y^2 = z^2$$
 
 ### Python Code
 
-The following is an example of included python code in your page:
+The following is an example of python code in your page:
 
 {% highlight python %}
-
 def fun(a,b):
-  """This function simply adds two integer
-     and returns the sum.
+  """This function simply adds two integer and returns the sum.
   """
   return a + b
 
 {% endhighlight %}
 
+
+And the following is java code:
+
+{% highlight java %}
+public int plus(int a, int b) {
+    return a+b;
+}
+{% endhighlight %}
+
+
 -----
 
-Want to see something else added? <a href="https://github.com/poole/poole/issues/new">Open an issue.</a>
+Want to see something else added? <a
+href="https://github.com/poole/poole/issues/new">Open an issue.</a>
 
 [^fn-sample_footnote]: Handy! Now click the return link to go back.
